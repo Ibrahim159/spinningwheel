@@ -5,7 +5,7 @@ const start = () => {
     }, 100);
 }
 
-// Function to start the conffeti in 5s
+// Function to stop the conffeti in 5s
 const stop = () => {
     setTimeout(function () {
         confetti.stop();
