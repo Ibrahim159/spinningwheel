@@ -9,12 +9,12 @@ const start = () => {
 const stop = () => {
     setTimeout(function () {
         confetti.stop();
-    }, 17000);
+    }, 5000);
 }
 
 // Initialize spin button
 let btn = document.getElementById("spin-btn");
-let audio = new Audio('winner.mp3');
+let audio = new Audio('winner.mpeg');
 
 // Function to load data from CSV
 async function loadData(file) {
